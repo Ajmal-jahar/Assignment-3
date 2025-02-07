@@ -68,11 +68,11 @@ function checkTaskLimit() {
             reject("You have selected more than 5 tasks. Please deselect some.");
         }
     })
-    .then((msg) => {
-        alert(msg);
+    .then((message) => {
+        alert(message);
     })
-    .catch((msg) => {
-        alert(msg);
+    .catch((message) => {
+        alert(message);
     });
 }
 
